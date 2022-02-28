@@ -1,0 +1,10 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Inventory-Test-task/v17
+/x64/Debug
+/Inventory-Test-task.vcxproj
+/Inventory-Test-task.vcxproj.filters
+/Inventory-Test-task.vcxproj.user
+/Inventory-Test-task.sln
