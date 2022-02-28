@@ -2,10 +2,10 @@
 
 
 
-Item::Item(const	std::string&	ident,
-					Type			type,
-					u_int			level,
-					Rarity			rarity)
+Item::Item(const std::string&	ident,
+				 Type			type,
+				 u_int			level,
+				 Rarity			rarity)
 	:
 	_ident(ident) 
 {
@@ -16,13 +16,13 @@ Item::Item(const	std::string&	ident,
 
 
 
-Weapon::Weapon(	Buffs&			buffs,
-				std::string		ident,
-				Type			type,
-				u_int			level,
-				Rarity			rarity,
-				double			damage,
-				double			speed)
+Weapon::Weapon(		  Buffs&		buffs,
+				const std::string&	ident,
+					  Type			type,
+					  u_int			level,
+					  Rarity		rarity,
+					  double		damage,
+					  double		speed)
 
 	:
 	Item(ident, type, level, rarity)
@@ -43,12 +43,12 @@ void Weapon::info()
 
 
 
-Armour::Armour(	Buffs&			buffs,
-				std::string		ident,
-				Type			type,
-				u_int			level,
-				Rarity			rarity,
-				double			armour)
+Armour::Armour(		  Buffs&		buffs,
+				const std::string&	ident,
+					  Type			type,
+					  u_int			level,
+					  Rarity		rarity,
+					  double		armour)
 	:
 	Item(ident, type, level, rarity)
 

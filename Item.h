@@ -33,13 +33,13 @@ protected:
 class Weapon : public Item
 {
 public:
-	Weapon(	Buffs&			buffs,
-			std::string		ident,
-			Type			type	=	Type::melee,
-			u_int			level	=	1,
-			Rarity			rarity	=	Rarity::common,
-			double			damage	=	1,
-			double			speed	=	1);
+	Weapon(		  Buffs&		buffs,
+			const std::string&	ident,
+				  Type			type	=	Type::melee,
+				  u_int			level	=	1,
+				  Rarity		rarity	=	Rarity::common,
+				  double		damage	=	1,
+				  double		speed	=	1);
 
 	void info() override;
 
@@ -55,12 +55,12 @@ private:
 class Armour : public Item
 {
 public:
-	Armour(	Buffs&			buffs,
-			std::string		ident,
-			Type			type	=	Type::armour,
-			u_int			level	=	1,
-			Rarity			rarity	=	Rarity::common,
-			double			armour	=	1);
+	Armour(		  Buffs&		buffs,
+			const std::string&	ident,
+				  Type			type	=	Type::armour,
+				  u_int			level	=	1,
+				  Rarity		rarity	=	Rarity::common,
+				  double		armour	=	1);
 
 	void info() override;
 
